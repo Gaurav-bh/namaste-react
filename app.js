@@ -1,3 +1,7 @@
+import  React  from 'react';
+import  ReactDOM  from 'react-dom';
+
+
 const child1=React.createElement(
     "h1",
     {id:"child1"},
@@ -29,4 +33,4 @@ const revision=React.createElement(
 )
 console.log(heading)
 const root=ReactDOM.createRoot(document.getElementById("root"))
-root.render(revision)
+root.render(heading)
