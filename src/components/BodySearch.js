@@ -3,7 +3,7 @@ const BodySearch = () => {
       <div className="bodysearch">
         <input type="text"></input>
   
-        <p className="searchname">search</p>
+        <button className="search-btn">search</button>
       </div>
     );
   };

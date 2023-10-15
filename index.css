@@ -34,15 +34,17 @@
 }
 
 .bodysearch{
+    height: 25px;
     display: flex;
     margin: 10px;
     padding: 5px;
 
 }
-.searchname{
+.search-btn{
     display: flex;
-    padding: 10px;
-    margin: 10px;
+    padding: 2px;
+    margin: 2px;
+    cursor: pointer;
 }
 .bodycard{
     width: 100%;
