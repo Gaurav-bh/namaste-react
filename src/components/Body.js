@@ -3,7 +3,7 @@ import BodySearch from "./BodySearch";
 
 export const Body = () => {
     return (
-      <div className="body">
+      <div className="flex">
         <BodySearch></BodySearch>
         <BodyCard></BodyCard>
       </div>
